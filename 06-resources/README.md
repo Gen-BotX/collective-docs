@@ -1,2 +1,1 @@
-# 06-resources
-
+# Resources
