@@ -1,0 +1,15 @@
+```mermaid
+graph LR
+    A[Vault: $100k] -->|Grows to| B[Vault: $120k]
+    B -->|20% of $20k profit| C[Performance Fee: $4k]
+    B -->|Net Value| D[Vault: $116k]
+    D -->|Declines to| E[Vault: $110k]
+    E -->|No Fee| E
+    E -->|Grows to| F[Vault: $125k]
+    F -->|20% of $9k profit above $116k high| G[Performance Fee: $1.8k]
+    
+    style C fill:#ffc9c9
+    style G fill:#ffc9c9
+    style D fill:#b2f2bb
+    style F fill:#b2f2bb
+```

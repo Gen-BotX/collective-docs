@@ -1,0 +1,16 @@
+```mermaid
+graph TD
+    A[Funder] -->|Deposits USDC| B[Vault]
+    B -->|Receives Vault Tokens| A
+    B -->|Deploys Capital| C[Vendor]
+    C -->|Buys Cards| D[Pokémon Cards]
+    D -->|Sells for Profit| C
+    C -->|Returns USDC| B
+    B -->|Token Value Increases| A
+    A -->|Can Withdraw Quarterly| B
+    
+    style A fill:#a5d8ff
+    style B fill:#b2f2bb
+    style C fill:#ffec99
+    style D fill:#ffc9c9
+```
